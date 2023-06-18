@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "SchoolGuard",
+    "version": "0.0.1",
+    "description": "제발 방송실 편집 컴퓨터로 이상한 것 좀 그만하세요! 특히 이*영 선배님!",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "SchoolGuard.js"
+            ]
+        }
+    ],
+    "author": "sh9351@sh9351.me",
+    "homepage_url": "https://github.com/sh9351/schoolguard"
+}
